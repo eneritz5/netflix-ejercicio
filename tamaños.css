@@ -1,0 +1,167 @@
+header {
+    padding: 30px;
+    padding-bottom: 150px;
+    background-image: url(imagenes/series.jpg);
+    
+}
+
+#logo-iniciar-sesion{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header p{
+    color:white; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    width: 15%;
+}
+
+body{
+    margin:0px;
+}
+
+#boton-iniciar-sesion{
+    background-color: red;
+    border-radius: 4px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+#cabecera{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#cabecera h1{
+    font-size: 50px;
+}
+
+#cabecera p{
+    font-size: 23px;
+    margin-top: -17px;
+    padding-bottom: 20px;
+}
+
+#cabecera-boton-probar-ahora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-probar-ahora{
+    background-color: red;
+    padding-right: 3px;
+    padding-left: 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#disfruta-imagen-texto{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;  
+    border-top: 10px solid #3c3c3c;
+    border-bottom: 5px solid #3c3c3c;
+    padding-bottom: 100px;
+}
+
+#disfruta-texto{
+    padding-left: 200px;
+    padding-top: 65px;
+}
+
+#disfruta-texto h2{
+    font-size: 52px;
+}
+
+#disfruta-texto p{
+    font-size: 23px;
+}
+
+#boton-probar-ahora-tv{
+    border: 2px solid white;
+    background-color: black;
+    padding-left: 36px;
+    width: 42%;
+    border-radius: 4px;
+}
+#descarga{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;  
+    border-top: 5px solid #3c3c3c;
+    border-bottom: 10px solid #3c3c3c;
+    padding-bottom: 100px;
+}
+
+#descarga-texto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+#descarga h2{
+    font-size: 52px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+#descarga p{
+    font-size: 23px;
+}
+
+#boton-probar-ahora-descarga{
+    border: 2px solid white;
+    background-color: black;
+    padding-left: 36px;
+    width: 33%;
+    border-radius: 4px;    
+}
+
+#disfruta-en-todas-partes{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;  
+    border-top: 5px solid #3c3c3c;
+    border-bottom: 5px solid #3c3c3c;
+    padding-bottom: 100px;
+}
+
+#texto-disfruta-en-todas-partes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+
+#boton-probar-ahora-disfruta{
+    border: 2px solid white;
+    background-color: black;
+    padding-left: 36px;
+    width: 33%;
+    border-radius: 4px;    
+}
